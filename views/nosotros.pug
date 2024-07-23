@@ -1,4 +1,33 @@
 extends ./layout/index
 
 block contenido
-    p Nosotros
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+
+                blockquote  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis eos ea quas placeat id eligendi necessitatibus. Labore accusamus quidem, ipsum alias cupiditate harum animi minima quam dolorum, officia eos quod!
+
+                p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit asperiores molestias, illum numquam rem at odio dignissimos mollitia odit amet vel perferendis quam totam sequi ratione voluptatibus. Reprehenderit, eius tempora.
+
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias architecto quam aliquam totam. Cum illum quasi minus id cupiditate cumque reprehenderit! Pariatur adipisci unde reprehenderit incidunt? Dolores, cupiditate voluptatibus!
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center    
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias architecto quam aliquam totam. Cum illum quasi minus id cupiditate cumque
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias architecto quam aliquam totam. Cum illum quasi minus id cupiditate cumque
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa alias architecto quam aliquam totam. Cum illum quasi minus id cupiditate cumque
