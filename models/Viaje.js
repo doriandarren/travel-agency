@@ -17,6 +17,9 @@ export const Viaje = db.define('viajes', {
     imagen:{
         type: Sequelize.STRING
     },
+    precio:{
+        type: Sequelize.STRING
+    },
     descripcion:{
         type: Sequelize.STRING
     },

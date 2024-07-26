@@ -28,6 +28,9 @@ app.use( (req, res, next) => {
 });
 
 
+//Agregar body
+
+
 //Definir la carpeta ñublica
 app.use(express.static('public'));
 
