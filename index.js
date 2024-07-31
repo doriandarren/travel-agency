@@ -28,7 +28,9 @@ app.use( (req, res, next) => {
 });
 
 
-//Agregar body
+//Agregar body para leer dtos del formulario
+app.use(express.urlencoded({extended: true}));
+
 
 
 //Definir la carpeta ñublica
