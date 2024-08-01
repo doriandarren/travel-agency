@@ -5,3 +5,8 @@
 ```sh
 npm run dev
 ```
+
+
+```sh
+npm i dotenv
+```
